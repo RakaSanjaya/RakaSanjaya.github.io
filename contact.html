@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top" style="background-color: #6ae8f1">
+      <div class="container">
+        <a class="navbar-brand" href="#">Raka Sanjaya | Contact</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link " href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="skill.html">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="project.html">Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active"  aria-current="page" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+     <!-- Contact -->
+     <section class="contact">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col">
+            <h2>Contact Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
+              <strong>Terima Kasih!</strong> Pesan anda sudah terkirim.
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            <form name="formportfolio">
+              <div class="mb-3">
+                <label for="Name" class="form-label">Nama:</label>
+                <input type="text" class="form-control" id="name" aria-describedby="name" name="nama" />
+              </div>
+              <div class="mb-3">
+                <label for="Email" class="email">Email:</label>
+                <input type="email" class="form-control" id="email" aria-describedby="email" name="email" />
+              </div>
+              <div class="mb-3">
+                <label for="pesan" class="textarea">Pesan</label>
+                <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-kirim">Submit</button>
+              <button class="btn btn-primary btn-loading d-none" type="button" disabled>
+                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                Loading...
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="lainnya">
+        <img src="img/media sosial.png" width="100%" 
+        alt="follow">
+        <p>Tetap Semangat Dan Jalani Hidupmu Dengan Bahagia :)</p>
+      </div>
+
+
+      
+      <div class="sosmedial">
+    
+      <div class="instagram">
+        <a href="https://instagram.com/odicah_x?utm_medium=copy_link" target="blank">INSTAGRAM <i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="youtube">
+        <a href="https://www.youtube.com/c/RakaOdicah" target="blank">YOUTUBE <i class="fab fa-youtube"></i></a>
+        </div>
+        <div class="whatsapp">
+        <a href="https://wa.me/081905920176" target="blank">WHATSAPP <i class="fab fa-whatsapp"></i></a>
+        </div>
+        </div>
+    <div class="kunjungi"><p>Terimakasih Sudah Berkunjung!</p></div>
+
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#21b4f8"
+          fill-opacity="1"
+          d="M0,256L30,245.3C60,235,120,213,180,218.7C240,224,300,256,360,245.3C420,235,480,181,540,181.3C600,181,660,235,720,256C780,277,840,267,900,256C960,245,1020,235,1080,245.3C1140,256,1200,288,1260,293.3C1320,299,1380,277,1410,266.7L1440,256L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Akhir Contact -->
+      <!--footer-->
+     <footer>
+      <div class="copyright"
+      <small>Copyright &copy; 2022 - RakaSanjaya. ALLRights Reserved.</small>
+  </footer>
+    <!-- akhir footer -->
+      <!-- script form -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+      <script>
+        const scriptURL = "https://script.google.com/macros/s/AKfycbyaqGFtA0d_brt1jdfW7OPYVzrOD-pXMjmJRheZEmcQ8OWWM850J8YiijJLAiP9Xb0qdQ/exec";
+  
+        const form = document.forms["formportfolio"];
+        const btnKirim = document.querySelector(".btn-kirim");
+        const btnLoading = document.querySelector(".btn-loading");
+        const myAlert = document.querySelector(".my-alert");
+  
+        form.addEventListener("submit", (e) => {
+          e.preventDefault();
+          // ketika tombol submit di klik
+          // tampilkan tombol loading,hilangkan tombol kirim
+          btnLoading.classList.toggle("d-none");
+          btnKirim.classList.toggle("d-none");
+  
+          fetch(scriptURL, { method: "POST", body: new FormData(form) })
+            .then((response) => {
+              // tampilkan tombol kirim,hilangkan tombol loading
+              btnLoading.classList.toggle("d-none");
+              btnKirim.classList.toggle("d-none");
+              // tampilkan alert
+              myAlert.classList.toggle("d-none");
+              // RESET FORMNYA
+              form.reset();
+              console.log("Success!", response);
+            })
+            .catch((error) => console.error("Error!", error.message));
+        });
+      </script>
+      <!-- akhir -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
