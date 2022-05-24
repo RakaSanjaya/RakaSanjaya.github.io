@@ -9,6 +9,10 @@ b {
   color: #21b4f8;
 }
 
+.navbar-brand {
+  font-family: "Comic Neue", cursive;
+}
+
 .nav-item {
   margin-bottom: 5px;
   text-align: center;
