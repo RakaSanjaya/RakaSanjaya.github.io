@@ -112,10 +112,15 @@ footer {
   text-decoration: none;
 }
 
-.follow1 :hover {
+.follow1 a:hover {
   color: white;
   background-color: #057ab1;
 }
+
+.follow1 a:visited {
+  background-color: #9e70f3;
+}
+
 /* akhir follow */
 /* AKHIR HOME */
 
@@ -160,16 +165,21 @@ footer {
 
 .box {
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
   color: #ffffff;
   padding-top: 30px;
   font-family: "Comic Neue", cursive;
   background-color: #56c9ff;
+  text-align: center;
 }
 
-.box .col-3 h5 {
-  padding: 10px;
-  box-sizing: border-box;
+.box .col-sm-4 h5 {
+  padding: 10px 0;
   color: #ffffff;
+  align-items: center;
+  text-align: center;
 }
 
 .icon {
@@ -177,16 +187,19 @@ footer {
   height: 70px;
   border: 3px solid;
   border-radius: 50%;
-  text-align: center;
-  padding-top: 10px;
+  align-items: center;
+  align-content: center;
+  padding-top: 11px;
   font-size: 30px;
-  margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.box .col-3 {
+.box .col-sm-4 {
   margin-bottom: 5px;
+  width: 25%;
+  text-align: center;
+  align-items: center;
 }
 
 .skill .container-skill h3 {
@@ -290,6 +303,10 @@ footer {
   border-radius: 5px;
   text-decoration: none;
   color: #fff;
+}
+
+.instagram a:visited {
+  background-color: #030303;
 }
 
 .instagram a:hover {
@@ -429,6 +446,9 @@ footer {
   text-decoration: none;
   color: #fff;
 }
+.sekolah h5 a:visited {
+  color: rgb(238, 253, 97);
+}
 
 .sekolah h5 a:hover {
   text-decoration: none;
@@ -500,43 +520,29 @@ footer {
   letter-spacing: 1px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 576px) {
+
+  .box .col-sm-4 {
+    margin-bottom: 15px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+
   .box {
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
     text-align: center;
     align-items: center;
   }
 
-  .box .col-3 h5 {
-    display: flex;
-    flex-direction: column;
+  .box .col-sm-4 h5 {
+    margin: 5px auto;
+    width: 200px;
     text-align: center;
     align-items: center;
-    font-size: 15px;
-  }
-
-  .sosmedial {
-    margin-top: 100px;
-    display: flex;
-    flex-direction: column;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .box {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-  }
-
-  .box .col-3 h5 {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    font-size: 15px;
+    font-size: 17px;  
   }
 
   .sosmedial {
@@ -547,7 +553,29 @@ footer {
 
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 577px) {
+
+  .box .col-sm-4 {
+    margin:0 auto;
+    width: 25%;
+    text-align: center;
+    align-items: center;
+  }
+
+  .box {
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+  }
+
+  .box .col-sm-4 h5 {
+    margin: 5px auto;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    font-size: 13px;  
+  }
   .announce img {
     width: 30%;
   }
