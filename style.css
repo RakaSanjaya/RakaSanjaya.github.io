@@ -524,7 +524,7 @@ footer {
 @media screen and (max-width: 576px) {
 
   .box .col-sm-4 {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     width: 100%;
     text-align: center;
     align-items: center;
@@ -539,7 +539,7 @@ footer {
   }
 
   .box .col-sm-4 h5 {
-    margin: 5px auto;
+    margin: 10px auto;
     width: 200px;
     text-align: center;
     align-items: center;
