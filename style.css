@@ -523,7 +523,7 @@ footer {
   font-size: 25px;
   color: #1d1c1c;
   position: fixed;
-  z-index: 1;
+  z-index: 9999;
   background-color: #86d4f3;
   height: 50px;
   width: 50px;
