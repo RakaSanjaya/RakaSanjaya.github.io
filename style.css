@@ -521,6 +521,27 @@ footer {
   background-color: yellow;
 }
 
+.term {
+  margin-top: 40px;
+  padding-top: 5px;
+  font-size: 25px;
+  color: #252525;
+  position: fixed;
+  z-index: 1;
+  background-color: #21b4f8;
+  height: 50px;
+  width: 50px;
+  align-items: center;
+  text-align: center;
+  border-radius: 50%;
+  margin-left: 10px;
+  box-shadow: 1px 1px 4px;
+}
+
+.term a {
+  text-decoration: none;
+}
+
 @media screen and (max-width: 576px) {
   .box .col-sm-4 {
     margin-bottom: 40px;
