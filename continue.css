@@ -59,6 +59,7 @@ header h1{
     height: 200px;
     overflow: auto;
     color: rgb(99, 99, 99);
+    letter-spacing: 1px;
 }
 
 @media screen and (max-width: 576px) {
