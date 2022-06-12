@@ -517,29 +517,21 @@ footer {
   letter-spacing: 1px;
 }
 
-.continue {
-  background-color: yellow;
-}
-
 .term {
   margin-top: 40px;
   padding-top: 5px;
   font-size: 25px;
-  color: #252525;
+  color: #1d1c1c;
   position: fixed;
   z-index: 1;
-  background-color: #21b4f8;
+  background-color: #86d4f3;
   height: 50px;
   width: 50px;
   align-items: center;
   text-align: center;
   border-radius: 50%;
   margin-left: 10px;
-  box-shadow: 1px 1px 4px;
-}
-
-.term a {
-  text-decoration: none;
+  box-shadow: 1px 1px 10px -3px ;
 }
 
 @media screen and (max-width: 576px) {
