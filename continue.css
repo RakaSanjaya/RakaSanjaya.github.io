@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Comic Neue", cursive;
+}
+
+body {
+  background-color: rgb(238, 236, 236);
+}
+
+header h1{
+  font-size: 30px;
+  background-color: #0099ff;
+  padding: 30px;
+  color: aliceblue;
+  letter-spacing: 1px;
+}
+
+.mengerti a {
+  text-decoration-line: none;
+  color: rgb(255, 255, 255);
+  background-color: #0099ff;
+  padding: 10px 50px;
+  border-radius: 25px;
+}
+.mengerti a:hover {
+  background-color: #0067ac;
+}
+
+.mengerti {
+  margin-top: 50px;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.hai h4 {
+  margin-left: 20px;
+  margin-bottom: 30px;
+  color: rgb(99, 99, 99);
+  font-size: 25px;
+  text-align: left;
+  letter-spacing: 1px;
+}
+
+.imgcont img {
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+  
+}
+
+.penjelasan{
+    text-align: justify;
+    margin: 50px auto;
+    width: 70%;
+    height: 200px;
+    overflow: auto;
+    color: rgb(99, 99, 99);
+}
+
+@media screen and (max-width: 576px) {
+  header h1{
+    font-size: 23px;
+    background-color: #0099ff;
+    padding: 30px 0 10px 10px;
+    color: aliceblue;
+    letter-spacing: 2px;
+  }
+
+  .imgcont img {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+  }
+
+  .hai h4 {
+    margin-left: 10px;
+    margin-bottom: 20px;
+    color: rgb(99, 99, 99);
+    font-size: 20px;
+    text-align: left;
+  }
+}

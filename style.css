@@ -200,7 +200,6 @@ footer {
   width: 25%;
   text-align: center;
   align-items: center;
-
 }
 
 .skill .container-skill h3 {
@@ -216,7 +215,6 @@ footer {
   color: #fff;
   font-size: large;
 }
-
 
 .progress {
   margin: 0px 10%;
@@ -272,6 +270,7 @@ footer {
   font-family: "Comic Neue", cursive;
   font-size: 20px;
   color: #21b4f8;
+  margin: 0px 20px;
 }
 
 .kunjungi p {
@@ -418,7 +417,6 @@ footer {
 
 .education {
   padding-top: 50px;
-  
 }
 
 .education h3 {
@@ -488,9 +486,8 @@ footer {
 }
 
 .odiedit:hover {
-  
   color: #fff;
-  background-color:rgb(206, 2, 162) ;
+  background-color: rgb(206, 2, 162);
 }
 
 .odiedit a {
@@ -509,7 +506,6 @@ footer {
   align-items: center;
   border-radius: 8px;
   font-family: "Comic Neue", cursive;
-  
 }
 
 .announce2 {
@@ -521,8 +517,11 @@ footer {
   letter-spacing: 1px;
 }
 
-@media screen and (max-width: 576px) {
+.continue {
+  background-color: yellow;
+}
 
+@media screen and (max-width: 576px) {
   .box .col-sm-4 {
     margin-bottom: 40px;
     width: 100%;
@@ -543,7 +542,7 @@ footer {
     width: 200px;
     text-align: center;
     align-items: center;
-    font-size: 17px;  
+    font-size: 17px;
   }
 
   .sosmedial {
@@ -551,13 +550,11 @@ footer {
     display: flex;
     flex-direction: column;
   }
-
 }
 
 @media screen and (min-width: 577px) {
-
   .box .col-sm-4 {
-    margin:0 auto;
+    margin: 0 auto;
     width: 25%;
     text-align: center;
     align-items: center;
@@ -575,7 +572,7 @@ footer {
     width: 100%;
     text-align: center;
     align-items: center;
-    font-size: 13px;  
+    font-size: 13px;
   }
   .announce img {
     width: 30%;
