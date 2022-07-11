@@ -475,6 +475,48 @@ footer {
   padding-bottom: 50px;
 }
 
+.pkl {
+  text-align: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  background-color: #55c9ff;
+  margin-top: -10px;
+  padding-top: 0px;
+  margin-bottom: -10px;
+}
+
+
+.pkl .judulpkl b {
+    background-color: #057ab1;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius:15px
+}
+
+.pkl h4 {
+  font-family: "Comic Neue", cursive;
+  padding-top: 30px;
+  letter-spacing: 1px;
+}
+
+
+.pkl h4 a{
+  text-decoration: none;
+  color: #fff;
+
+}
+
+.pkl h4 a:hover{
+  color: rgb(34, 82, 240);
+}
+
+.pkl p {
+  color: #fff;
+  padding-bottom: 50px;
+  margin-bottom: 0;
+}
+
 .card-text {
   text-align: center;
   color: #030303;
