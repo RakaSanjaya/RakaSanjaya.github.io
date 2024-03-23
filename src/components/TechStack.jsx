@@ -23,7 +23,7 @@ export default function TechStack() {
         <TechIcon icon="Bootstrap">Bootstrap</TechIcon>
         <TechIcon icon="Tailwind">Tailwind</TechIcon>
         <TechIcon icon="Nodejs">Node JS</TechIcon>
-        <TechIcon icon="Mysql">MySQL</TechIcon>
+        <TechIcon icon="MySQL">MySQL</TechIcon>
       </div>
     </section>
   );
