@@ -4,7 +4,7 @@ export default function Illustration() {
       class="md:my-28 mt-20 flex flex-col mx-4 md:flex-row md:justify-center md:items-center"
       data-aos="fade-up"
       data-aos-duration="800">
-      <img src="/public/illustration/img-programmer.png" alt="img-programmer" class="mx-auto w-9/12 md:w-3/12" />
+      <img src="/illustration/img-programmer.png" alt="img-programmer" class="mx-auto w-9/12 md:w-3/12" />
       <p class="mx-auto text-md md:text-xl mt-5 md:mt-2 text-center">
         <span class="text-blue">Hi, I'm </span>
         <a

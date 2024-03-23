@@ -9,7 +9,7 @@ export default function Education() {
       <div div className="flex flex-col align-middle items-center justify-center w-11/12 mx-auto md:flex-row">
         <div class="w-10/12 mx-auto md:w-1/2 mb-6 lg:mb-0" data-aos="fade-up" data-aos-duration="800">
           {" "}
-          <img src="public/illustration/edu.png" alt="img-edu" class="flex justify-center md:w-10/12" />
+          <img src="/illustration/edu.png" alt="img-edu" class="flex justify-center md:w-10/12" />
         </div>
         <div class="flex flex-col w-full gap-5 justify-center mx-auto md:w-1/2">
           <EducationBox

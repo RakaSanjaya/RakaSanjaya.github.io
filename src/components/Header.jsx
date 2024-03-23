@@ -5,7 +5,7 @@ import Switcher from "./Switcher";
 function Header() {
   const [toggle, setToggle] = useState(false);
   const activeLinkStyle = "text-white font-semibold bg-blue px-4 py-2 rounded-md text-sm";
-  const baseStyle = "hover:text-white font-medium px-4 py-2 rounded-md text-sm hover:bg-greylight";
+  const baseStyle = "hover:text-white font-medium px-4 py-2 rounded-md text-sm hover:bg-dark hover:bg-opacity-60";
   const handleToggle = () => {
     setToggle(!toggle);
   };

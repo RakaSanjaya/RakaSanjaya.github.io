@@ -5,7 +5,7 @@ export default function SkillsBox({ icon, text, level }) {
       data-aos="flip-right"
       data-aos-duration="800"
       data-aos-delay="500">
-      <img src={`../../public/logo/${icon}`} alt={text} class="w-7" />
+      <img src={`/logo/${icon}`} alt={text} class="w-7" />
       <div class="relative">
         <h3 class="group font-bold text-sm tracking-wider translate-y-2 group-hover:-translate-y-0 z-auto duration-300 ease-out text-end dark:text-white">
           {text}

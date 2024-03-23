@@ -176,7 +176,7 @@ function Contact() {
           <div>
             <div>
               <div data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
-                <img src="public/illustration/mail.png" alt="img-mail" className="w-8/12 lg:w-6/12 mx-auto" />
+                <img src="/illustration/mail.png" alt="img-mail" className="w-8/12 lg:w-6/12 mx-auto" />
               </div>
 
               <div

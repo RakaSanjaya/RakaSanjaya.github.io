@@ -12,7 +12,7 @@ export default function HeroSection() {
         data-aos-easing="ease-in">
         <div className="w-full mx-auto flex flex-col md:flex-row justify-center align-middle items-center">
           <div className="w-1/2">
-            <img src="./public/profile-web.png" className="w-72 mx-auto" alt="profile-web" />
+            <img src="profile-web.png" className="w-72 mx-auto" alt="profile-web" />
           </div>
           <div className="flex mt-8 justify-center align-middle flex-col gap-2 w- full md:w-1/2">
             <h1 className="text-3xl md:text-6xl font-bold text-center md:text-left dark:text-white">
@@ -27,9 +27,7 @@ export default function HeroSection() {
               className="text-center md:text-left w-full dark:text-white"
             />
             <Sosmed />
-            <Button
-              link={"/public/cv.pdf"}
-              className={"mt-4 lg:mt-2 w-full md:w-fit hover:border-blue dark:bg-white dark:text-dark "}>
+            <Button link={"cv.pdf"} className={"mt-4 lg:mt-2 w-full md:w-fit hover:border-blue dark:bg-white dark:text-dark "}>
               Download CV
             </Button>
           </div>
