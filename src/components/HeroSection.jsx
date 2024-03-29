@@ -40,7 +40,7 @@ export default function HeroSection() {
         data-aos-duration="800"
         data-aos-easing="ease-out">
         <div className="font-bold text-center text-xl text-blue">
-          18
+          19
           <br />
           <span className="text-sm font-normal text-black dark:text-white">Age</span>
         </div>
@@ -58,7 +58,7 @@ export default function HeroSection() {
           data-aos-duration="800"
           data-aos-easing="ease-out">
           <div className="flex w-1/5 h-20 bg-whiteDeep dark:bg-greylight rounded-xl justify-center align-middle items-center flex-col  shadow-md">
-            <h2 className="font-bold text-blue text-md lg:text-xl">18</h2>
+            <h2 className="font-bold text-blue text-md lg:text-xl">19</h2>
             <span className="text-xs dark:text-white">Age</span>
           </div>
           <div className="w-4/5 flex h-20 bg-whiteDeep dark:bg-greylight rounded-xl justify-center align-middle shadow-md items-center flex-col">
