@@ -17,12 +17,10 @@ function Contact() {
     e.preventDefault();
 
     function formatTanggal(date) {
-      // Mengambil komponen tanggal, bulan, dan tahun dari objek Date
       const tanggal = date.getDate();
-      const bulan = date.getMonth() + 1; // Perlu ditambah 1 karena indeks bulan dimulai dari 0
+      const bulan = date.getMonth() + 1;
       const tahun = date.getFullYear();
 
-      // Mengembalikan format "hh/bb/tttt"
       return `${tanggal}/${bulan}/${tahun}`;
     }
 

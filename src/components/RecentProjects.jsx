@@ -23,13 +23,13 @@ export default function RecentProjects() {
             modules={[Navigation, Scrollbar, A11y]}
             spaceBetween={10}
             slidesPerView={3}
-            scrollbar={{ draggable: true }}>
+            scrollbar={{ draggable: false }}>
             {websiteProjects.map(
               ({ id, title, desc, image, icon }) =>
                 id && (
                   <SwiperSlide>
-                    {" "}
                     <Boximage id={id} image={image} title={title} desc={desc} icon={icon} />
+                    {" "}
                   </SwiperSlide>
                 )
             )}

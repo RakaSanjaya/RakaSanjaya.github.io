@@ -48,7 +48,8 @@ function Header() {
             <Switcher />
           </div>
           <button className="md:hidden" onClick={handleToggle}>
-            <svg
+
+            {toggle ? <svg className="dark:text-white" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1.3em" width="1.3em" xmlns="http://www.w3.org/2000/svg"><g><path fill="none" d="M0 0h24v24H0z"></path><path d="M12 10.586l4.95-4.95 1.414 1.414-4.95 4.95 4.95 4.95-1.414 1.414-4.95-4.95-4.95 4.95-1.414-1.414 4.95-4.95-4.95-4.95L7.05 5.636z"></path></g></svg> : <svg
               className="dark:text-white"
               stroke="currentColor"
               fill="none"
@@ -58,7 +59,7 @@ function Header() {
               width="1.3em"
               xmlns="http://www.w3.org/2000/svg">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
-            </svg>
+            </svg>}
           </button>
         </section>
       </header>
@@ -75,9 +76,8 @@ function Sidebar({ toggle }) {
 
   return (
     <section
-      className={`md:hidden fixed w-3/5 h-screen top-20 duration-700 ease-out bg-white dark:bg-dark dark:bg-opacity-80 bg-opacity-80 backdrop-blur-xl shadow-md -mt-0 ${
-        toggle ? "right-0" : "-right-full"
-      } shadow-md z-10`}>
+      className={`md:hidden fixed w-3/5 h-screen top-20 duration-700 ease-out bg-white dark:bg-dark dark:bg-opacity-80 bg-opacity-80 backdrop-blur-xl shadow-md -mt-0 ${toggle ? "right-0" : "-right-full"
+        } shadow-md z-10`}>
       <div className="flex flex-col justify-between h-full">
         <div className="flex flex-col gap-2 items-end p-4">
           <NavLink
